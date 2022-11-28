@@ -361,8 +361,3 @@ $("input[salary]").on("input", function () {
     $("#minSalary").val($("#minSalary").val().replace(",", "").replace(/[^0-9]/g, "").replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
     $("#maxSalary").val($("#maxSalary").val().replace(",", "").replace(/[^0-9]/g, "").replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
 })
-
-// submit 
-function handleSubmit() {
-    window.location.pathname = "pages/job-posting.html"
-}

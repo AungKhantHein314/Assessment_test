@@ -52,7 +52,7 @@ $.fn.jFormslider = function (options) {
 	var cancle_button = '<a href="job-posting.html"><button type="button" class="button button-bg-white"> CANCLE </button></a>'
 	var next_button = '<button class="button button-bg-green" next> CONTINUE </button>'
 	var prev_button = '<button class="button button-bg-white" prev> BACK </button>'
-	var submit_button = '<button onclick="handleSubmit()" class="button button-bg-green"> SUBMIT </button>'
+	var submit_button = '<a href="job-posting.html"><button type="button" class="button button-bg-green"> SUBMIT </button></a>'
 	var width = options.width;
 	var height = options.height;
 	var widthpc = width * lilength * 100;
