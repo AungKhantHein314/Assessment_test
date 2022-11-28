@@ -158,7 +158,7 @@ function newMultipleChoiceQuestion(quesionID) {
                                 <p class="input-guide">SELECT THE CORRECT ANSWER</p>
 
                                 <section class="options">
-                                            <div class="answerWithOptions d-flex">
+                                            <div class="answerWithOptions mt-2 d-flex">
                                                 <input type="text" class="form-control">
                                                 <select class="form-select mx-3" name="answer" style="width: 155px;" required data-msg="Correctness state must be chosen." err-id="error-question${questionID}a-choose">
                                                     <option selected disabled>Choose</option>
@@ -209,7 +209,7 @@ function newMultipleSelectionQuestion(quesionID) {
                                 <p class="input-guide">SELECT THE CORRECT ANSWER</p>
 
                                 <section class="options">
-                                            <div class="answerWithOptions d-flex">
+                                            <div class="answerWithOptions mt-2 d-flex">
                                                 <input type="text" class="form-control">
                                                 <select class="form-select mx-3" name="answer" style="width: 155px;" required data-msg="Correctness state must be chosen." err-id="error-question${questionID}a-choose">
                                                     <option selected disabled>Choose</option>
